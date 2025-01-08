@@ -1,10 +1,9 @@
 # micro-finance-peer-assignment
 This repo create by own company will using to host sample code to calculate simple interest
-# Shipping Cost Calculator
-## Input package weight and shipping rate
-weight = float(input("Enter the package weight in kilograms: "))
-rate = float(input("Enter the shipping rate per kilogram: "))
-## Calculate shipping cost
-shipping_cost = weight * rate
-## Display the result
-print(f"Shipping Cost: {shipping_cost} USD")
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r
